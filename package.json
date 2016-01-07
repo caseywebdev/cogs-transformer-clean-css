@@ -1,15 +1,15 @@
 {
-  "name": "cogs-transformer-csso",
-  "version": "1.0.5",
+  "name": "cogs-transformer-clean-css",
+  "version": "1.0.0",
   "author": "Casey Foster <c@sey.me>",
-  "description": "A csso transformer for Cogs.",
+  "description": "A clean-css transformer for Cogs.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caseywebdev/cogs-transformer-csso"
+    "url": "https://github.com/caseywebdev/cogs-transformer-clean-css"
   },
   "dependencies": {
-    "csso": "1.4.4"
+    "clean-css": "3.4.9"
   },
   "devDependencies": {
     "cogs-test-helper": "1.x"

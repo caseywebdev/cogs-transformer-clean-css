@@ -1,8 +1,10 @@
-var csso = require('csso');
+var CleanCSS = require('clean-css');
 
 module.exports = function (file, options, cb) {
-  var source = file.buffer.toString();
-  try { source = csso.minify(source) + '\n'; }
-  catch (er) { return cb(er); }
-  cb(null, {buffer: new Buffer(source)});
+  try {
+    var res = (new CleanCSS(options)).minify(file.buffer.toString());
+    var errorMessage = res.errors.concat(res.warnings).join('\n');
+    if (errorMessage) throw new Error(errorMessage);
+    cb(null, {buffer: new Buffer(res.styles + '\n')});
+  } catch (er) { return cb(er); }
 };

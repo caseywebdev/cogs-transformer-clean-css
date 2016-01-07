@@ -1,9 +1,9 @@
-# cogs-transformer-csso
+# cogs-transformer-clean-css
 
-A [csso] transformer for [Cogs].
+A [clean-css] transformer for [Cogs].
 
-[![Build Status]](http://travis-ci.org/caseywebdev/cogs-transformer-csso)
+[![Build Status]](http://travis-ci.org/caseywebdev/cogs-transformer-clean-css)
 
-[csso]: https://github.com/css/csso
+[clean-css]: https://github.com/jakubpawlowicz/clean-css
 [Cogs]: https://github.com/caseywebdev/cogs
-[Build Status]: https://secure.travis-ci.org/caseywebdev/cogs-transformer-csso.png
+[Build Status]: https://secure.travis-ci.org/caseywebdev/cogs-transformer-clean-css.png
