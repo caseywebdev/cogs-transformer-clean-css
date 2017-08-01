@@ -1,6 +1,6 @@
 {
   "name": "cogs-transformer-clean-css",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "author": "Casey Foster <c@sey.me>",
   "description": "A clean-css transformer for Cogs.",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "url": "https://github.com/caseywebdev/cogs-transformer-clean-css"
   },
   "dependencies": {
-    "clean-css": "3"
+    "clean-css": "4"
   },
   "devDependencies": {
     "cogs-test-helper": "3"
